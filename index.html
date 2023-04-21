@@ -14,7 +14,7 @@
     <title>Landingpage </title>
 </head>
 
-<body>
+<body class="changebg">
     <div class="container picture">
         <div class="wrapper">
             <header>
@@ -35,7 +35,7 @@
                         <h2 class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue ligula. Nam ac turpis eu 
                             magna fringilla volutpat. Duis volutpat ex malesuada, bibendum libero non, sollicitudin enim. </h2>
                         <a href="#"><button class="button">Sign Up</button></a>
-                        <a href="#"><button class="button">Log In</button></a>
+                        <a href="#"><button class="button signup">Log In</button></a>
                     </div>
                 </section>
                 
@@ -44,6 +44,23 @@
     </div>
     
     </main>
+
+    <!-- <script>
+        function changeBg(){
+
+            const image = [
+                'url(butterfly2bg.png)',
+                'url(butterflybg.png)',
+                ]
+
+            const div = document.querySelector('div')
+            const bg = image[Math.floor(Math.random() * image.length)];
+            div.style.backgroundImage = bg;
+        }
+
+        setInterval(changeBg, 1000)
+    </script> -->
+
 </body>
 
 </html>

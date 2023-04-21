@@ -38,6 +38,7 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 body{
+  width: 100%;
   font-size: 1.8rem;
   background-image: url("butterflybg.png");
   background-repeat: no-repeat;
@@ -134,4 +135,11 @@ h2{
   color: white;
 }
 
-
+.changebg:hover {
+  transition-duration: 0.4s;
+}
+.changebg:hover {
+  background-image: url("butterfly2bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
