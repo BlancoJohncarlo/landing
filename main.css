@@ -39,6 +39,9 @@ ol[class] {
 }
 body{
   font-size: 1.8rem;
+  background-image: url("butterflybg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .nav-bar{
   display: flex;
@@ -104,6 +107,7 @@ h2{
 .subheader{
   width: 44%;
   margin-bottom: 20px;
+  color: #fff;
 }
 .button, input[type="submit"]{
   font-family: 'Poppins', sans-serif;;
@@ -119,6 +123,15 @@ h2{
   margin-left: 0;
   text-decoration: none;
   border: none;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
 }
 
 
